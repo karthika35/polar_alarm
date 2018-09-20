@@ -1,0 +1,43 @@
+<!--<div class="container">
+
+  <section class="panel" style="background-color: #F1F1F1">
+    <div class="panel-heading text-center"><h5>Current Temprature Alert Limits</h5></div>
+    <div class="panel-body">
+      <h6 align="center" style="color: #007299">Temprature</h6>
+
+      <div style=" margin-left: 10px; margin-right: 10px;">
+
+        <ng5-slider
+          [(value)]="minValue"
+          [(highValue)]="maxValue"
+          [options]="options"
+          #slider
+          (valueChange)="sliderOnUpdate(slider)"
+        ></ng5-slider>
+      </div>
+
+
+      <div class="row" style="margin-top: 5px; margin-left: 80px">
+        <div class="onoffswitch col-xs-offset-2 col-sm-offset-4">
+          <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox"
+                 id="myonoffswitch" checked="checked">
+          <label class="onoffswitch-label" for="myonoffswitch">
+            <span class="onoffswitch-inner"></span>
+            <span class="onoffswitch-switch"></span>
+          </label>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="panel">
+    <div class="row" style="margin-left: 70px; margin-top: 10px;">
+      <div class="col-sm-8 col-sm-offset-2">
+        <button  class="btn btn-lg btn-block btn-default" data-toggle="modal" data-target="#myModal"
+                ng-click="updateLimits(device)" style="height: 40px" (click)="onUpdate()">
+          <i class="fa fa-refresh"> Update</i>
+        </button>
+      </div>
+    </div>
+  </section>
+</div>\
+-->

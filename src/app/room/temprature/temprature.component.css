@@ -1,0 +1,170 @@
+
+.error {
+  border-color: rgb(255, 134, 5);
+}
+.circle-poly p {
+  font-size: 25px;
+  vertical-align: middle;
+  display: table-cell;
+  text-align: center;
+  line-height: 100%;
+  color: rgb(29, 41, 45);
+}
+
+.circle-poly p span {
+  line-height: 100%;
+  font-size: 50px;
+}
+
+.circle-poly {
+  background: white;
+  border-radius: 15px;
+  border: 8px solid rgb(57, 77, 107);
+  color: rgb(57, 77, 107);
+  height: 200px;
+  /*font-weight: bold;*/
+  width: 80%;
+  display: table;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19), 0 0 0 5px white;
+  margin: 20px auto;
+}
+
+
+/* You can add global styles to this file, and also import other style files */
+
+
+.btn.outline {
+  background: none;
+  border-radius: 24px;
+}
+
+.btn-primary.outline {
+  border: 2px solid rgb(57, 77, 107);
+  color: rgb(57, 77, 107);
+}
+
+.btn-primary.outline:hover, .btn-primary.outline:focus, .btn-primary.outline:active, .btn-primary.outline.active, .open > .dropdown-toggle.btn-primary {
+  color: #33a6cc;
+  border-color: #33a6cc;
+}
+
+.btn-primary.outline:active, .btn-primary.outline.active {
+  border-color: #007299;
+  color: #007299;
+  box-shadow: none;
+}
+
+.btn-info.outline {
+  border: 2px solid #0eccbf;
+  color: #0eccbf;
+}
+
+.btn-info.outline:hover, .btn-info.outline:focus, .btn-info.outline:active, .btn-info.outline.active, .open > .dropdown-toggle.btn-info {
+  color: #59ccc8;
+  border-color: #59ccc8;
+}
+
+.btn-info.outline:active, .btn-info.outline.active {
+  border-color: #0d9599;
+  color: #0d9599;
+  box-shadow: none;
+}
+
+.circle-poly {
+  background: white;
+  border-radius: 15px;
+  border: 8px solid rgb(57, 77, 107);
+  color: rgb(57, 77, 107);
+  height: 200px;
+  /*font-weight: bold;*/
+  width: 80%;
+  display: table;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19), 0 0 0 5px white;
+  margin: 20px auto;
+}
+
+.disable {
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.offline {
+  opacity: 0.7;
+}
+
+.inactive {
+  border-color: rgb(170, 178, 75);
+}
+
+.critical {
+  border-color: rgb(255, 0, 0);
+}
+
+.error {
+  border-color: rgb(255, 134, 5);
+}
+
+.active {
+  border-color: rgb(51, 77, 100);
+}
+
+.circle-poly p {
+  font-size: 25px;
+  vertical-align: middle;
+  display: table-cell;
+  text-align: center;
+  line-height: 100%;
+  color: rgb(29, 41, 45);
+}
+
+.circle-poly p span {
+  line-height: 100%;
+  font-size: 50px;
+}
+
+.header {
+  font-size: 20px;
+  vertical-align: top;
+  display: table-cell;
+  text-align: center;
+  line-height: 120%;
+  font-weight: 500;
+  color: rgb(57, 77, 107);
+  width: 100%;
+  background-color: transparent;
+  margin-bottom: 15px;
+  margin-top: 25px;
+}
+
+.thermal {
+  font-size: 25px;
+  vertical-align: top;
+  display: table-cell;
+  text-align: center;
+  line-height: 0;
+  font-weight: 500;
+  color: rgb(57, 77, 107);
+  width: 100%;
+  background-color: transparent;
+}
+
+.readings {
+  font-size: 15px;
+  vertical-align: top;
+  display: table-cell;
+  text-align: center;
+  line-height: 120%;
+  font-weight: bold;
+  color: rgb(57, 77, 107);
+  width: 100%;
+  background-color: transparent;
+  margin-bottom: 12px;
+  margin-top: 5px;
+}
+
+.thermal span {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+/* You can add global styles to this file, and also import other style files */
